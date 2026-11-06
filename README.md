@@ -20,7 +20,8 @@ Il applique le pattern **LLM Wiki** d'Andrej Karpathy et y ajoute ce que l'usage
 2. **Un budget de lecture par projet** : `02-projects/<projet>-context.md` liste les seules pages wiki que l'agent a
    le droit de lire pour ce projet.
 3. **Des skills actives en permanence** (`skills/`) : anti-slop (refuser les premières idées, mécanisme + mode
-   d'échec), ingestion de veille (filtre slop, 5 sections d'analyse, reliure), idéation créative.
+   d'échec), ingestion de veille (filtre slop, 5 sections d'analyse, reliure), idéation créative, et un
+   **audit SEO + GEO** complet (`skills/audit-seo-geo/`) qui mesure aussi la visibilité d'une marque dans les IA.
 4. **Une règle de poids** : rien au-dessus de 1 Mo dans le dépôt Git, on dépose la transcription Markdown et
    l'original reste à sa source.
 
@@ -46,6 +47,7 @@ Il applique le pattern **LLM Wiki** d'Andrej Karpathy et y ajoute ce que l'usage
 | `raw/` | sources brutes, source de vérité, jamais réécrites | humain |
 | `wiki/` | connaissance compilée et reliée (`hot.md`, `index.md`, pages) | agent |
 | `skills/` | règles de comportement de l'agent | agent sur demande |
+| `audit-livrables/` | dossiers d'audit SEO + GEO, un par client (créé au premier audit) | agent |
 | `99-archive/` | projets clos | agent sur demande |
 
 ## Références

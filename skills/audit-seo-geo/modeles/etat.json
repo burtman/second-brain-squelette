@@ -1,0 +1,27 @@
+{
+  "client": "<Marque>",
+  "slug": "<slug>",
+  "url": "https://",
+  "mode": "complet",
+  "type_activite": "",
+  "registre": "vous",
+  "destinataire": "client",
+  "acces": { "search_console": false, "claude_in_chrome": false },
+  "niveau_test_ia": "live ciblé",
+  "rythme": "pause",
+  "concurrents": [],
+  "debut": "AAAA-MM-JJ",
+  "derniere_maj": "AAAA-MM-JJ",
+  "etapes": {
+    "1-releve": { "statut": "a_faire", "date": null, "note": null },
+    "2-offre-accueil": { "statut": "a_faire", "date": null, "note": null },
+    "3-technique": { "statut": "a_faire", "date": null, "note": null },
+    "4-requetes-concurrents": { "statut": "a_faire", "date": null, "note": null },
+    "5-autorite": { "statut": "a_faire", "date": null, "note": null },
+    "6-contenu": { "statut": "a_faire", "date": null, "note": null },
+    "7-visibilite-ia": { "statut": "a_faire", "date": null, "note": null, "score_ia": null, "marge": null },
+    "8-synthese": { "statut": "a_faire", "date": null, "note_globale": null }
+  },
+  "faits_marquants": [],
+  "etape_suivante": "1-releve"
+}

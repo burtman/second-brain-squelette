@@ -130,6 +130,10 @@ Les fichiers dans `skills/` définissent des comportements que tu dois appliquer
 - Fiche de veille avec les 5 sections d'analyse imposées + reliure wikilinks bidirectionnelle + index
 - Definition of Done à cocher avant de rendre
 
+**`skills/audit-seo-geo/` — actif à toute demande d'audit SEO, GEO ou de visibilité dans les IA :**
+- 8 étapes chargées une par une, une preuve (URL + méthode) derrière chaque constat, toute absence vérifiée deux fois
+- Trois modes : complet, flash de prospection, re-audit à 30/60/90 jours ; livrables dans `audit-livrables/<client>/`
+
 **`skills/creative-ideation.md` — actif quand l'utilisateur demande des idées :**
 - Router par phase et domaine avant de générer
 - Nommer la méthode utilisée
