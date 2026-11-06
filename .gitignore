@@ -1,0 +1,19 @@
+# Obsidian : config partageable versionnée, état local de la fenêtre non
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS
+.DS_Store
+~$*
+
+# Secrets : jamais dans le dépôt
+.env
+.env.*
+_local/
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
